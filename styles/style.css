@@ -54,8 +54,7 @@
 .cover {
     position: relative;
     height: 757px;
-    background-size: cover;
-    background: url("../images/cover.jpg") no-repeat center;
+    background: url("../images/cover.jpg") no-repeat center / cover;
 }
 
 .overlay {
