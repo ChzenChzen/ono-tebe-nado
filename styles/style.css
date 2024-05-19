@@ -66,6 +66,8 @@
 
 .cover__title {
     position: relative;
+    display: flex;
+    flex-direction: column;
     z-index: 2;
     font-weight: 700;
     text-transform: uppercase;
@@ -74,23 +76,19 @@
     color: white;
 }
 
-.aligned-text {
-    position: relative;
-}
-
 .aligned-text-left {
-    top: 164px;
-    left: 50px;
+    align-self: start;
+    padding: 165px 0 0 50px;
 }
 
 .aligned-text_center {
-    top: 291px;
-    left: -90px;
+    align-self: center;
+    padding-top: 10px;
 }
 
 .aligned-text_right {
-    top: 294px;
-    left: 634px;
+    align-self: end;
+    padding-right: 20px;
 }
 
 .letter-spacing-extended {
