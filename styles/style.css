@@ -145,9 +145,11 @@
 }
 
 .lots__card-list {
-    display: flex;
-    justify-content: space-between;
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 25px;
 }
 
 .card-link {
