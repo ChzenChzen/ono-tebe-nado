@@ -150,6 +150,10 @@
     list-style: none;
 }
 
+.card-link {
+    text-decoration: none;
+}
+
 .card {
     position: relative;
     display: flex;
